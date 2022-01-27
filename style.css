@@ -200,7 +200,7 @@ button:focus {
 
 /* Main Body Header */
 
-main {
+.first-section {
   display: flex;
   flex-direction: column;
   margin: 10vh 2rem;
@@ -226,7 +226,6 @@ main {
   border-radius: 6px;
 }
 
-
 .right-section {
   align-items: center;
   text-align: center;
@@ -238,12 +237,12 @@ main {
 }
 
 @media only screen and (min-width: 1000px) {
-  main {
-    margin: 10vh 6rem;
+  .first-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    margin: 10vh 6rem;
   }
 
   .main-header {
@@ -259,16 +258,82 @@ main {
     width: 90%;
   }
 
-  .left-section{
+  .left-section {
     width: 50vw;
   }
 
-  .ctabtn{
+  .ctabtn {
     margin-top: 2vh;
     padding: 0.65rem 1.5rem;
   }
 
   .illustration {
     width: 45rem;
+  }
+}
+
+/* Second Section Styles */
+
+.second-section {
+  background-color: aliceblue;
+  padding: 0 2rem 5rem 2rem;
+}
+
+.bulb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ssheader {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.95rem;
+}
+
+.paper-bulb {
+  height: 15rem;
+}
+
+.image-container {
+  align-items: center;
+  text-align: center;
+}
+
+.punyalan {
+  margin: 5vh 0;
+  height: 65vh;
+  border-radius: 5px;
+}
+
+.sheader {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1000px) {
+  .ssheader {
+    font-size: 2.75rem;
+    width: 15rem;
+  }
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .sheader {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .s1s2 {
+    text-align: right;
+    width: 25vw;
+  }
+
+  .s3s4 {
+    text-align: left;
+    width: 25vw;
   }
 }
