@@ -226,6 +226,10 @@ button:focus {
   border-radius: 6px;
 }
 
+.ctabtn:hover{
+  box-shadow: 0px 0px 10px #fda15a;
+}
+
 .right-section {
   align-items: center;
   text-align: center;
@@ -288,15 +292,17 @@ button:focus {
 .ssheader {
   font-family: "Outfit", sans-serif;
   font-size: 1.95rem;
+  
 }
 
 .paper-bulb {
-  height: 15rem;
+  height: 25vh;
 }
 
 .image-container {
   align-items: center;
   text-align: center;
+  margin-top: 5vh;
 }
 
 .punyalan {
@@ -308,6 +314,7 @@ button:focus {
 .sheader {
   font-size: 1.5rem;
   font-weight: 600;
+  color: #fd7915;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -324,7 +331,7 @@ button:focus {
 
   .sheader {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .s1s2 {
