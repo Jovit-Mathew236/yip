@@ -268,7 +268,7 @@ button:focus {
   }
 
   .illustration {
-    width: 45rem;
+    width: 40vw;
   }
 }
 
@@ -301,7 +301,7 @@ button:focus {
 
 .punyalan {
   margin: 5vh 0;
-  height: 65vh;
+  height: 60vh;
   border-radius: 5px;
 }
 
