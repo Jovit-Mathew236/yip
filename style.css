@@ -291,6 +291,7 @@ button:focus {
 .ssheader {
   font-family: "Outfit", sans-serif;
   font-size: 1.95rem;
+  color: #404040;
   
 }
 
@@ -348,4 +349,23 @@ button:focus {
 /* Timeline Styles */
 .lni-cake{
   width: 4rem;
+}
+
+.third-section{
+  margin: 7vh 0;
+  margin-bottom: 15vh;
+}
+
+.tsheading{
+  text-align: center;
+  color: #404040;
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1000px) {
+  .tsheading{
+    font-size: 3rem;
+    margin-bottom: 4vh;
+  }
 }
