@@ -343,3 +343,9 @@ button:focus {
     width: 25vw;
   }
 }
+
+
+/* Timeline Styles */
+.lni-cake{
+  width: 4rem;
+}
