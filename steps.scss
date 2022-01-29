@@ -244,6 +244,7 @@ h2 {
 
 @media (max-width: 786px) {
   .timeline__event {
+    width: 65vw;
     flex-direction: column;
     align-self: center;
     &__content {

@@ -251,6 +251,7 @@ h2 {
 
 @media (max-width: 786px) {
   .timeline__event {
+    width: 65vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
