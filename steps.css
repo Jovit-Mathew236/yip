@@ -275,6 +275,7 @@ h2 {
   }
   .timeline__event__date {
     border-radius: 0;
+    text-align: center;
     padding: 20px;
   }
   .timeline__event:nth-child(2n + 1) {
