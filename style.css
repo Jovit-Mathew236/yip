@@ -202,8 +202,9 @@ button:focus {
 .first-section {
   display: flex;
   flex-direction: column;
-  margin: 10vh 2rem;
+  margin: 13vh 2rem;
   color: #404040;
+  font-weight: 500;
 }
 
 .main-header {
@@ -216,7 +217,8 @@ button:focus {
   line-height: 1.75rem;
 }
 
-.ctabtn, .start {
+.ctabtn,
+.start {
   background-color: #fd7915;
   color: white;
   padding: 0.5rem 1rem;
@@ -225,14 +227,15 @@ button:focus {
   border-radius: 6px;
 }
 
-.start{
+.start {
   color: #fd7915;
   margin-left: 5px;
   border: 2px solid #fd7915;
   background-color: white;
 }
 
-.ctabtn:hover, .start:hover{
+.ctabtn:hover,
+.start:hover {
   box-shadow: 0px 0px 10px #faac71;
 }
 
@@ -249,7 +252,7 @@ button:focus {
 @media only screen and (min-width: 1000px) {
   .first-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     margin: 10vh 6rem;
@@ -262,14 +265,10 @@ button:focus {
 
   .tagline {
     margin-top: 0vh;
-    font-size: 1.05rem;
+    font-size: 1.20rem;
     line-height: normal;
     font-weight: 400;
-    width: 90%;
-  }
-
-  .left-section {
-    width: 50vw;
+    width: 85%;
   }
 
   .ctabtn {
@@ -299,7 +298,6 @@ button:focus {
   font-family: "Outfit", sans-serif;
   font-size: 1.95rem;
   color: #404040;
-  
 }
 
 .paper-bulb {
@@ -312,10 +310,11 @@ button:focus {
   margin-top: 5vh;
 }
 
-.punyalan {
-  margin: 5vh 0;
-  height: 60vh;
-  border-radius: 5px;
+.yt-video {
+  height: 33vh;
+  width: 23rem;
+  border-radius: 8px;
+  margin: 3vh 0;
 }
 
 .sheader {
@@ -325,6 +324,13 @@ button:focus {
 }
 
 @media only screen and (min-width: 1000px) {
+
+  .yt-video {
+    height: 30vh;
+    width: 36rem;
+    border-radius: 8px;
+  }
+
   .ssheader {
     font-size: 2.75rem;
     width: 15rem;
@@ -352,18 +358,17 @@ button:focus {
   }
 }
 
-
 /* Timeline Styles */
-.lni-cake{
+.lni-cake {
   width: 4rem;
 }
 
-.third-section{
+.third-section {
   margin: 7vh 0;
   margin-bottom: 15vh;
 }
 
-.tsheading{
+.tsheading {
   text-align: center;
   color: #404040;
   font-size: 2.1rem;
@@ -371,7 +376,7 @@ button:focus {
 }
 
 @media only screen and (min-width: 1000px) {
-  .tsheading{
+  .tsheading {
     font-size: 3rem;
     margin-bottom: 4vh;
   }
