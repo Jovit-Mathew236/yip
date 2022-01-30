@@ -265,7 +265,7 @@ button:focus {
 
   .tagline {
     margin-top: 0vh;
-    font-size: 1.20rem;
+    font-size: 1.2rem;
     line-height: normal;
     font-weight: 400;
     width: 85%;
@@ -309,12 +309,11 @@ button:focus {
   text-align: center;
   margin-top: 5vh;
 }
-
 .yt-video {
-  height: 33vh;
-  width: 23rem;
+  width: 80vw;
+  min-height: 30vh;
   border-radius: 8px;
-  margin: 3vh 0;
+  margin: 5vh 0;
 }
 
 .sheader {
@@ -324,16 +323,16 @@ button:focus {
 }
 
 @media only screen and (min-width: 1000px) {
-
-  .yt-video {
-    height: 30vh;
-    width: 36rem;
-    border-radius: 8px;
-  }
-
   .ssheader {
     font-size: 2.75rem;
     width: 15rem;
+  }
+
+  .yt-video {
+    width: 30vw;
+    min-height: 35vh;
+    border-radius: 8px;
+    margin: 5vh 0;
   }
 
   .image-container {
@@ -343,7 +342,7 @@ button:focus {
   }
 
   .sheader {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 600;
   }
 
