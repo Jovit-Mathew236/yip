@@ -7,8 +7,6 @@ nav {
   background-color: white;
 }
 
-
-
 .mulearn-logo {
   width: 6rem;
 }
@@ -86,12 +84,13 @@ footer a {
   border-radius: 3px;
 }
 
-.upbtn{
+.upbtn {
   margin: 0;
   padding: 0;
 }
 
-.upbtn:hover, #myBtn:hover {
+.upbtn:hover,
+#myBtn:hover {
   color: #5865f2;
   background-color: white;
 }
@@ -407,5 +406,37 @@ button:focus {
   .tsheading {
     font-size: 3rem;
     margin-bottom: 4vh;
+  }
+}
+
+.inputfield {
+  margin-top: 2rem;
+  width: 20rem;
+  padding: 0.4rem 2.25rem;
+}
+
+.submit-btn {
+  background-color: #f6832a;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding: 0.45rem 2.25rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .inputfield {
+    margin-top: 2rem;
+    width: 20rem;
+    padding: 0.4rem 2.25rem;
+  }
+  
+  .submit-btn {
+    background-color: #f6832a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.45rem 2.25rem;
   }
 }

@@ -80,6 +80,8 @@
 
     <!-- Custom CSS -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/steps.css" />
 
@@ -93,9 +95,14 @@
   <body>
     <!-- shynet start -->
     <noscript>
-    <img src="https://shynet-ku7u.onrender.com/ingress/da20d77c-efc5-4d68-8e0d-b78b74024c48/pixel.gif">
+      <img
+        src="https://shynet-ku7u.onrender.com/ingress/da20d77c-efc5-4d68-8e0d-b78b74024c48/pixel.gif"
+      />
     </noscript>
-    <script defer src="https://shynet-ku7u.onrender.com/ingress/da20d77c-efc5-4d68-8e0d-b78b74024c48/script.js"></script>
+    <script
+      defer
+      src="https://shynet-ku7u.onrender.com/ingress/da20d77c-efc5-4d68-8e0d-b78b74024c48/script.js"
+    ></script>
     <!-- shynet end -->
     <!-- Google Tag Manager (noscript) -->
     <noscript
@@ -248,11 +255,26 @@
             unarticulated needs, or existing market needs of the society more
             effectively through an innovative challenge.
           </p>
-          <a
+          <!-- <a
             target="_blank"
-            href="https://yip.kerala.gov.in/yipapp/index.php/Idea2021/?utm_source=mulearn&utm_medium=link&utm_campaign=mulearn_directv1&utm_id=yip21v1&utm_term=new_reg"
-            ><button class="ctabtn">Register Now</button></a
+            href="#"
+            ><button class="ctabtn">Registrations Closed!</button></a
+          > -->
+          <form
+            id="gform"
+            action=""
+           
           >
+            <input
+              placeholder="Email Address"
+              class="inputfield"
+              type="email"
+              name="email"
+              id="email"
+            />
+            <button class="submit-btn" type="submit">Notify Me!</button>
+            <p class="stext">Enter in your Email Id to get notified for YIP'22.</p>
+          </form>
         </div>
 
         <div class="right-section">
@@ -595,8 +617,14 @@
                   class="pageclip-form"
                   method="post"
                 >
-                  <input type="email" name="email" placeholder="Enter your email" />
-                  <button  type="submit" class="pageclip-form__submit">Join</button>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                  />
+                  <button type="submit" class="pageclip-form__submit">
+                    Join
+                  </button>
                 </form>
               </div>
             </div>
@@ -623,5 +651,24 @@
     <script src="script.js"></script>
 
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
+    <script>
+      $("#gform").submit((e) => {
+        e.preventDefault();
+        $.ajax({
+          url: "https://script.google.com/macros/s/AKfycbw7IC0kJuSOOrWFhz30TJg5MVwr--BMJZRVH-P7zjRSVAWQMnQJmyXYOep2t31cCuGJ/exec",
+          data: $("#gform").serialize(),
+          method: "post",
+          success: function (response) {
+            alert("Form submitted successfully");
+            window.location.reload();
+            //window.location.href="https://google.com"
+          },
+          error: function (err) {
+            alert("Something Error");
+          },
+        });
+      });
+    </script>
   </body>
 </html>
